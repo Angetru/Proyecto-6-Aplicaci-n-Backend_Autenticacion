@@ -11,26 +11,17 @@
 ## Desarrollo
 
 ### 1. Desafio
- Para este quinto proyecto se solicita crear una aplicación web con React que consumirá datos de una API pública. Los datos que obtenga de la API se mostrarán en una interfaz de usuario.
- Esta aplicación deberá:
-- Conectar con una API para obtener datos
-- Mostrar los datos en una interfaz de usuario
-- Permitir alguna interacción del usuario (por ejemplo, mediante botones o formularios)
-
- Los requerimientos para este proyecto son:
- - Uso de vite para la generación del proyecto
- - Crear componentes funcionales
- - Utilizar una API pública y mostrar los datos obtenidos en tu interfaz de usuario
- - Uso de Hooks (mínimo useEffect para los procesos asíncronos)
- - Implementar rutas en tu aplicación con React Router
- - Manejar errores de renderizado con Error Boundaries
- - Implementación CSS a través de un framework (TailwindCSS, MUI, Bootstrap)
+ Para este sexto proyecto se solicita crear una aplicación backend con autenticación, en donde se cumplirán las siguientes actividades:
+ - Foco en seguridad en las aplicaciones web, sobre la aplicación backend con funciones de autenticación y autorización utilizando tecnologías como JWT (JSON Web Tokens). Así como también herramientas pueden ser utilizadas para implementar mecanismos de autenticación en los servidores.
+ - La aplicación deberá cumplir con una estructura de tal manera que incluya dos modelos principales, uno para el Usuario y otro para Producto (y/o elemento). Para este proyecto, los productos serán consideramos como un "Bucket List" (Lista de deseos a cumplir durante la vida). Esto será interrelacionado por medio de MongoDB (como Base de Datos) y Mongoose (como ORM para facilitar esta interacción).
+ - Complementando lo anterior, se utilizará Swagger para el proceso de documentación.
+ - Además de implementar el proceso de CRUD (Crear, Leer, Actualizar, Borrar) al desarrollar los servicios. Se utilizará express.js y cors, y además de estructurar tus carpetas con controladores, modelos y rutas. Así como aplicar dotenv (para el manejo de las variables de entorno).
+ - Utilizar MongoDB Atlas para el despliegue de la base de datos y render.com para la entrega del proyecto.
 
   ****
 
 ### 2. Desarrollo de proyecto
- Luego de revisar las API disponibles en la Web, además de buscar información interesante en los medios, se seleccionó una API pública relacionada a las Olimpiadas de Paris 2024.
- Se incluye como referencia información sobre la API para mayor detalle: [Link API](https://github.com/kevle1/paris-2024-olympic-api?tab=readme-ov-file)
+ Para el análisis del proyecto, se parte desde la estructura base que define los controladores, modelos y rutas. 
  
  En resumen esta API permite visualizar las medallas ganadas por los paises participantes, y la idea es disponibilizar la información a los usuarios, que puedan interactuar con distintos botones para ordenar la información, además que permita a los usuarios buscar 
  por país, considerando que se debe usar la codificación indicada por el Comité de las Olimpiadas,  NOCs ("National Olympic Committees"), se incluye link en esta sección a modo de referencia e importante mencionar que esta misma información fue incluida en un 
