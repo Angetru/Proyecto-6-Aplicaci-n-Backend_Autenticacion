@@ -41,43 +41,43 @@
 
  Y en MongoDB Compass, se habilitan desde la colección de "test", los datos por users, farmacos y listas:
 
- ![img .env](./images/mongodb.png)
+ ![img .mongodb](./images/mongodb.png)
 
  Sobre los modelos, se muestra a continuación un extracto de modelo de usuario, farmaco y lista:
-
- ![img .env](./images/modelousuario.png)
-
- ![img .env](./images/modelofarmaco.png)
-
- ![img .env](./images/modelolista.png)
+ - Modelo user:
+ ![img .model user](./images/modelouser.png)
+ - Modelo fármaco:
+ ![img .momdel farmaco](./images/modelofarmaco.png)
+ - Modelo lista:
+ ![img .model lista](./images/modelolista.png)
 
   A modo de ejemplo se muestra un extracto del controlador de usuario:
   
- ![img .env](./images/usercontroller.png) 
+ ![img .user controller](./images/usercontroller.png) 
  
   Sobre el proceso de registro (signUp) y signIn, se muestra a continuación un extracto:
   
-  ![img .env](./images/signin_signup.png)
+  ![img .sign up](./images/signin_signup.png)
 
   Y el funcionamiento de autorización, con JWT:
   
-  ![img .env](./images/autorizacion.png)
+  ![img .autorizacion JWT](./images/autorizacion.png)
 
  Para ir validando CRUD se fue probando desde Insomnia, como se ve a continuación:
 
-   ![img .env](./images/insomnia.png)
+   ![img .insomnia](./images/insomnia.png)
  
   Sobre Swagger, se muestra un extracto de la documentación, desde "http://localhost:3000/api-docs/":
   
-  ![img .env](./images/swagger.png)  
+  ![img .swagger](./images/swagger.png)  
 
   Se muestra extracto de la documentación del proceso de SignUp de un usuario, primero ingresando los datos:
   
-  ![img .env](./images/signupusuario.png)  
+  ![img .sign in](./images/signupusuario.png)  
 
   Y confirmación del proceso de Alta de usuario exitoso:
   
-  ![img .env](./images/signupusuarioconfirmacion.png)  
+  ![img .sin up confirmacion](./images/signupusuarioconfirmacion.png)  
 
   Finalmente se incluye link de render para la publicación del proyecto, direccionado a Swagger:
   [link Render](https://proyecto-6-aplicacion-backend.onrender.com/api-docs/)
