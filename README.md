@@ -29,7 +29,7 @@
 
   ![img estructuraa proyecto](./images/estructuraproyecto.png)
 
- Adicionalmente se crean las variables de entorno:
+ Adicionalmente se crean las variables de entorno, y por razones de seguridad se proteje user y password del acceso a MongoDB:
 
  ![img .env](./images/envoriginal.png)
 
