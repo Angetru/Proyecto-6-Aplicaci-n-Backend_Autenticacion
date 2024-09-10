@@ -64,14 +64,20 @@
   Sobre Swagger, se muestra un extracto de la documentación, desde "http://localhost:3000/api-docs/":
   
   ![img .env](./images/swagger.png)  
-  
 
+  Se muestra extracto de la documentación del proceso de SignUp de un usuario, primero ingresando los datos:
   
+  ![img .env](./images/signupusuario.png)  
+
+  Y confirmación del proceso de Alta de usuario exitoso:
+  
+  ![img .env](./images/signupusuarioconfirmacion.png)  
+ 
   ****
 
   ### 3. Conclusiones
  Para la preparación del proyecto de "Aplicación Backend con autenticación", se analizaron diferentes variables con el fin de hacer un proyecto interesante, que luego de varias revisiones y diferentes ideas con ejecuciones de pruebas, se llegó a la idea de crear esta forma de gestión de fármacos y dar la opción de agrupar por listas, de esta forma si en una familia están bajo diferentes tratamientos médicos, se pueda llevar un registro ordenado de los fármacos.
- Se presentaron varios desafíos durante la creación del código, y pero gracias a reiteradas pruebas, se logró dar con la ccorreción de errores, aso como revisiones desde Insomnia, para posteriormente finalizar con su documentación en Swagger.
+ Se presentaron varios desafíos durante la creación del código, además de comprender la estructura de código de Swagger, y pero gracias a reiteradas pruebas, se logró dar con la ccorreción de errores, aso como revisiones desde Insomnia, para posteriormente finalizar con su documentación en Swagger.
  
   ****
 *¡Gracias!*
