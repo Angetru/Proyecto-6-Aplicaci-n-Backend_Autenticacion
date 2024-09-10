@@ -26,16 +26,18 @@
   - Modelos está compuesto por estructuras de usuarios, farmacos y listas.
   - Controladores, contiene autenticación, farmaco, listas y usuarios.
   - Rutas, desde index para gestionar las rutas de usuario, lista, farmaco y autenticación
-
+    
   ![img estructuraa proyecto](./images/estructuraproyecto.png)
 
  Adicionalmente se crean las variables de entorno, y por razones de seguridad se proteje user y password del acceso a mongoDB, además se muestra las variables de entorno de ejemplo:
 
  Archivo .env:
+ 
  ![img .env](./images/envoriginal.png)
 
  Archivo .env.example:
- ![img .env](./images/envexample.png) 
+ 
+ ![img .envaxample](./images/envexample.png) 
 
  Y en MongoDB Compass, se habilitan desde la colección de "test", los datos por users, farmacos y listas:
 
