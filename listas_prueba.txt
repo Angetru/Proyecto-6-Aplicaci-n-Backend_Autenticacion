@@ -1,0 +1,28 @@
+{
+"_id": "66de65e364604a61c03c798b",
+"user": "66cdf4deadd196ac480d268e",
+"farmacos": [
+{
+"farmaco": "66de613742a62f1a35963020",
+"_id": "66de65e364604a61c03c798c"
+},
+{
+"farmaco": "66de621342a62f1a35963026",
+"_id": "66de65e364604a61c03c798d"
+}
+],
+"categoria": "Alergias",
+}
+
+
+{
+"_id": "66de691164604a61c03c79b0",
+"user": "66da5d4c8eef6a6d5aeb331b",
+"farmacos": [
+{
+"farmaco": "66de24f5f4d66ff27262e88a",
+"_id": "66de691164604a61c03c79b1"
+}
+],
+"categoria": "Tratamiento respiratorio",
+}

@@ -1,0 +1,23 @@
+{
+"name": "Juanin Alba",
+"username": "juanin",
+"password": "Undostres@4",
+"active": true,
+"email": "juanin@gmail.com"
+}
+
+{
+"name": "Alberto Carrasco",
+"username": "Albercar",
+"password": "Un/Dostres@4",
+"active": true,
+"email": "Alberca@cap.com"
+}
+
+{
+"name": "Veronica Arriada",
+"username": "verariada",
+"password": "t3s2cpos@5",
+"active": true,
+"email": "verarriada@gmail.com"
+}

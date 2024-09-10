@@ -1,0 +1,19 @@
+{
+  "name": "Salbutamol",
+  "description": "Dilatacion de bronquios - EPOC",
+  "dose": "Puff bucal",
+  "frequency": "2 puff cada 8hrs",
+  "times": "08 am, 16pm y 12 am",
+  "startdate": "20-09-2024",
+  "enddate": "11-09-2024",
+}
+
+{
+  "name": "Metformina",
+  "description": "Resistencia insulina",
+  "dose": "1000mg",
+  "frequency": "1 pastilla diaria PM",
+  "times": "21pm",
+  "startdate": "09/09/2024",
+  "enddate": "09/10/2024"
+}
