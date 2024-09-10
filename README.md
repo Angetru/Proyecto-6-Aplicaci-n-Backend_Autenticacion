@@ -29,9 +29,13 @@
 
   ![img estructuraa proyecto](./images/estructuraproyecto.png)
 
- Adicionalmente se crean las variables de entorno, y por razones de seguridad se proteje user y password del acceso a MongoDB:
+ Adicionalmente se crean las variables de entorno, y por razones de seguridad se proteje user y password del acceso a mongoDB, además se muestra las variables de entorno de ejemplo:
 
+ Archivo .env:
  ![img .env](./images/envoriginal.png)
+
+ Archivo .env.example:
+ ![img .env](./images/envexample.png) 
 
  Y en MongoDB Compass, se habilitan desde la colección de "test", los datos por users, farmacos y listas:
 
@@ -72,7 +76,10 @@
   Y confirmación del proceso de Alta de usuario exitoso:
   
   ![img .env](./images/signupusuarioconfirmacion.png)  
- 
+
+  Finalmente se incluye link de render para la publicación del proyecto, direccionado a Swagger:
+  [link Render](https://proyecto-6-aplicacion-backend.onrender.com/api-docs/)
+  
   ****
 
   ### 3. Conclusiones
